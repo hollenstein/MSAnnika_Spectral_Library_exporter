@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.7"
+# dependencies = [
+#   "pandas",
+#   "tqdm",
+# ]
+# ///
 
 # SPECTRONAUT POST PROCESSING
 # 2025 (c) Micha Johannes Birklbauer
@@ -19,10 +26,6 @@ SPECTRONAUT_DELIM = "," # delimiter in Spectronaut output file, e.g. "," for com
 SPECTRONAUT_MATCH_TOLERANCE = 0.05 # match tolerance in Da
 SPECTRONAUT_FRAGMENT_MZ_COLUMN_NAME = "F.CalibratedMz" # which F Mz to use for matching
 SPECTRONAUT_CSCORE_COLUMN_NAME = "EG.Cscore" # which Cscore to use for re-soring
-
-# REQUIREMENTS
-# pip install tqdm
-# pip install pandas
 
 # import packages
 import argparse
