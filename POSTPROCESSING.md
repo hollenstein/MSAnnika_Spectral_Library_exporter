@@ -17,8 +17,8 @@ used with [xiFDR](https://www.rappsilberlab.org/software/xifdr/) for validation.
   SPECTRONAUT_FRAGMENT_MZ_COLUMN_NAME = "F.CalibratedMz" # which F Mz to use for matching
   SPECTRONAUT_CSCORE_COLUMN_NAME = "EG.Cscore" # which Cscore to use for re-soring
   ```
-- Make sure that `post_process.py`, the Spectronaut result file, and the spectral
-  library are in the same directory.
+- Make sure that the Spectronaut result file, and the spectral library are in the same
+  directory.
 - Launch a shell/terminal in that directory.
 - Execute the command `python post_process.py SPECTRONAUT_RESULT.csv`.
   - You should replace `SPECTRONAUT_RESULT.csv` with the filename of your
